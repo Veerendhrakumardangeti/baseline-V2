@@ -1,6 +1,6 @@
-# ECG Classification using 1D CNN + Progressive Data Distribution (PDD)
+# ECG Classification using 1D CNN + Progressive Data Dropout(PDD)
 
-A deep learning pipeline for ECG signal classification using a 1D Convolutional Neural Network and Progressive Data Distribution (PDD), where the model is trained in stages from easy → medium → hard samples.
+A deep learning pipeline for ECG signal classification using a 1D Convolutional Neural Network and Progressive Data Dropout (PDD), where the model is trained in stages from easy → medium → hard samples.
 
 
 PTB-XL Dataset (Official Download — PhysioNet)

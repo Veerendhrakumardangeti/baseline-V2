@@ -174,11 +174,9 @@ PDD improves **generalization**, **class balance**, and **overall accuracy**.
 
 # 📁 Saving Results
 
-All logs, confusion matrices, and metrics are automatically saved to:
+All logs, confusion matrices, and metrics are automatically saved in:
 
 ```
 results/reports/
 ```
 
-
-Just tell me **"add diagrams"** or **"add abstract"**.

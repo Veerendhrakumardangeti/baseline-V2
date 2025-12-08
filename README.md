@@ -10,7 +10,7 @@ The goal is to improve generalization, reduce overfitting, and enhance performan
 
 ---
 
-## 📥 Dataset Download
+# Dataset Download
 
 Download the **PTB-XL dataset**:
 
@@ -54,7 +54,7 @@ project-root/
 
 ---
 
-## 🧠 Method Overview
+# Method Overview
 
 ### **1. Preprocessing**
 
@@ -116,7 +116,7 @@ python train_1d_baseline.py --data_dir ./results/baseline --epochs 30 --batch_si
 
 ---
 
-# 📊 Results
+# Results
 
 ## **Baseline Model Results**
 
@@ -156,23 +156,23 @@ python train_1d_baseline.py --data_dir ./results/baseline --epochs 30 --batch_si
 
 ---
 
-# 🆚 Baseline vs PDD — Comparison Table
+# Baseline vs PDD — Comparison Table
 
 | Feature                 | Baseline | PDD-SRD      |
 | ----------------------- | -------- | ------------ |
-| Curriculum Learning     | ❌ No     | ✅ Yes        |
-| Hard Sample Emphasis    | ❌        | ✅            |
-| Test Accuracy           | 0.69     | **0.745**    |
-| Macro F1                | 0.45     | **0.53**     |
-| Minority Class Recall   | Lower    | **Improved** |
-| Stability Across Epochs | Medium   | **High**     |
+| Curriculum Learning     |  No      | Yes          |
+| Hard Sample Emphasis    |  No      | yes          |
+| Test Accuracy           | 0.69     | 0.745        |
+| Macro F1                | 0.45     | 0.53         |
+| Minority Class Recall   | Lower    | Improved     |
+| Stability Across Epochs | Medium   | High.        |
 
 **Conclusion:**
 PDD improves **generalization**, **class balance**, and **overall accuracy**.
 
 ---
 
-# 📁 Saving Results
+# Saving Results
 
 All logs, confusion matrices, and metrics are automatically saved in:
 
